@@ -1,0 +1,7 @@
+<script>
+const hash = document.location.hash
+const u = new URL('https://effector.dev')
+u.pathname = document.location.pathname
+u.hash = document.location.hash
+document.location = u.toString()
+</script>
